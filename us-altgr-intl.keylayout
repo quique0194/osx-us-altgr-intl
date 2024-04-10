@@ -21,10 +21,11 @@
             <modifier keys="anyShift"/>
         </keyMapSelect>
         <keyMapSelect mapIndex="2">
-            <modifier keys="anyOption"/>
+            <modifier keys="anyControl"/>
         </keyMapSelect>
         <keyMapSelect mapIndex="3">
-            <modifier keys="anyShift caps? anyOption"/>
+            <modifier keys="caps anyControl"/>
+            <modifier keys="anyShift anyControl"/>
         </keyMapSelect>
         <keyMapSelect mapIndex="4">
             <modifier keys="command"/>
@@ -33,7 +34,7 @@
             <modifier keys="caps"/>
         </keyMapSelect>
         <keyMapSelect mapIndex="6">
-            <modifier keys="anyControl"/>
+            <modifier keys="anyOption"/>
         </keyMapSelect>
     </modifierMap>
     <keyMapSet id="ANSI">
